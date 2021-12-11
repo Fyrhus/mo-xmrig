@@ -1,6 +1,6 @@
 ## Fork info
 
-This fork contains minor changes that allow `pause-on-active` to work on Linux. Requires X11. To build XMRig from this you must also have headers for X11 and XScreenSaver (to get them on Ubuntu, execute `sudo apt-get install libx11-dev libxss-dev`).
+This fork of MoneroOcean's XMRig contains minor changes created by [In-line](https://github.com/In-line) that allow `pause-on-active` to work on Linux ([original pull request](https://github.com/xmrig/xmrig/pull/2220)). Requires X11. To build XMRig from this you can follow [official build guide](https://xmrig.com/docs/miner/build), except you must also have headers for X11 and XScreenSaver (to get them on Ubuntu, execute `sudo apt-get install libx11-dev libxss-dev`).
 
 # XMRig
 
