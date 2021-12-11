@@ -184,8 +184,8 @@ uint64_t xmrig::Platform::idleTime()
     static XScreenSaverInfo *info = {};
 
     if(!initialized) {
-        static void *libx11 = dlopen("/usr/lib/libX11.so", RTLD_LAZY);
-        static void *libxss = dlopen("/usr/lib/libXss.so", RTLD_LAZY);
+        static void *libx11 = dlopen("libX11.so", RTLD_LAZY);
+        static void *libxss = dlopen("libXss.so", RTLD_LAZY);
 
         if(!libxss || !libx11) {
             initialized = true;
